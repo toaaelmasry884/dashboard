@@ -1,0 +1,445 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  perspective: 600px;
+}
+
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2eb97f;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #2dca4f;
+  }
+  
+ 
+  
+
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #2eb97f;
+    padding-left: 8px;
+  }
+#no1{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}#no2{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}#no3{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}#no4{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}#no5{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}#no6{
+    color: white;
+    background-color: #2eb97a;
+    padding: 15px 15px;
+}
+p.para{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+#view ,#fees1{
+
+    margin-top: 4%;
+    margin-left: 2%;
+    width: 1040px;
+    border: 1px solid #ffffff;
+    box-shadow: 5px 10px #f7f8fa;
+    background-color: #ffffff;
+  }
+  hr.line{
+    border-top: 2px dashed #54e69d;
+  }
+  
+  .view{
+    border: 1px solid #ffffff;
+    box-shadow: 5px 10px #f7f8fa;
+    border-radius: 25px;
+    background-color:  #2EB97F ;
+    color: #ffffff;
+    margin-left: 5%;
+    text-align: center;
+  
+  }
+  .vl {
+    border-left: 2px dashed #ffffff;
+    margin-top: 25px;
+    height: 700px;
+  }
+  hr.line1{
+    border-top: 2px dashed #ffffff;
+    
+  }
+  img#src {
+     border-radius: 50%;
+     width: 30%;
+   }
+  
+  hr.line2{
+    border: 1px solid #ffffff;
+  }
+  button.btn{
+    border-radius: 15px;
+    color: #3fb182;
+  }
+  button.btn:hover{
+    background-color:#2EB97F;
+    color: #fff;
+  }
+ #botn:hover {
+  background-color:#2EB97F;
+  color: #fff;
+ }
+
+  
+#courses ,#dept ,#fees{
+
+  margin-top: 4%;
+  margin-left: 2%;
+  width: 1040px;
+  border: 1px solid #ffffff;
+  box-shadow: 5px 10px #f7f8fa;
+  background-color: #ffffff;
+}
+ .border{
+  border: 1px solid gray;
+  box-shadow: 5px 10px #f7f8fa;
+  border-radius: 5px;
+  color: #2EB97F;
+  margin-left: 5%;
+  
+
+}
+.center {
+width: 95%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+margin-top: 5px;
+
+}
+.text{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25PX;
+}
+
+ #btn1{
+  
+  background-color: #2EB97F;
+  color: #fff;
+  border: 1px solid #2EB97F; 
+  width: 60%;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+#btn1:hover{
+  background-color: #fff;
+  color: #28a745;
+}
+.form-control{
+  width: 200%;
+  height: 40px;
+  border: 1px solid #2EB97F; 
+  border-radius: 10px;
+
+}
+.pragraph{
+  margin-left: 10px;
+ 
+}
+.pragraph span{
+  margin-right: 15px;
+}
+
+
+ul.list {
+  list-style-type: square;
+  margin-left: 35px;
+}
+
+.btn-group ,#btnGroupDrop1,.btn11{
+
+  width: 150px;
+  height: 65px;
+  background: #2EB97F 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  box-shadow: 1px 1px 2px #00000029;
+  border-radius: 20px;
+ opacity:1 ;
+}
+.btn11:hover{
+  background: #ffffff ;
+  color: #2EB97F;
+}
+.dropdown-item{
+  color:#2EB97F;
+}
+
+  .box{
+    color: #fff;
+    padding: 20px;
+    display: none;
+    margin-top: 20px;
+}
+
+
+.search1{
+  float: right;
+  margin-left: 10px;
+  color:#2EB97F ;
+  border: 1px solid #2EB97F; 
+  border-radius: 5px;
+}
+
+label{
+    margin-right: 15px; 
+    font-size: 20px;
+    margin-left: 20%;
+}
+span{
+    margin-left: 10px;
+}
+   
+
+.red , .green{
+    color: gray;
+}
+input{
+  
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.border0{
+    border: none;
+    border-bottom: 2px solid #2EB97F;
+    width: 100%;
+}
+#check1 {
+    
+    font-size: 20px;
+   margin-top: 50px;
+   margin-right: 10%;
+    color: #2EB97F;
+}
+.btn2{
+    text-align: center;
+    color: #2EB97F;
+    background-color: #fff;
+    border: 1px solid #2EB97F; 
+    width: 130px;
+    height: 42px;
+    margin-left: 23%;
+    margin-top: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 10px #f7f8fa;
+}
+.btn2:hover{
+    background: #2EB97F 0% 0% no-repeat padding-box;
+    color: #ffffff;
+}
+#btnc{
+  color: #28a745;
+  background-color: #fff;
+  height: 40px;
+  box-shadow: none;
+  border-radius: 7px;
+  border: 1px solid #2EB97F;
+  width: 155px;
+ margin-left: 40%;
+  margin-top: -25%;
+}
+#btnc:hover{
+  color: #fff;
+  background-color:#28a745; 
+}
+
+.upload{
+ border: 1px dashed #2EB97F ;
+ height: 40px;
+ width: 120px;
+}
+
+.viewbtn{
+  color: #2EB97F ;
+  background-color: #fff;
+  height: 50px;
+  box-shadow: none;
+  border-radius: 22px;
+  border: 1px solid #2EB97F;
+  width: 165px;
+  margin-left: 20%;
+  
+}
+.viewbtn:hover{
+  color:#fff;
+  background-color:#2EB97F;
+  border: 1px solid #fff;
+}
+
+#img-bor{
+  border: 2px solid #fff;
+  height: 220px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 3px 7px rgb(214, 206, 206);
+}
+.butn-view{
+  color:#fff;
+  background-color:#2EB97F;
+  border: 1px solid #fff;
+  width: 135px;
+  height: 45px;
+  box-shadow: 1px 4px rgb(214, 206, 206);
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left:15px ;
+}
+.butn-view:hover{
+  color:#fff;
+  background-color:#2EB97F;
+  border: 1px solid #fff;
+}
+.img-edit{
+  margin-left:13%;
+   margin-top: 35px;
+   transform: scale(1);
+  transform: all 0.5s ease-in-out;
+}
+.img-edit:hover{
+transform: scale(1.5)
+}
+.accordion {
+  background-color: #2EB97F;
+  color: #fff;
+  cursor: pointer;
+  padding:20px;
+  margin: 20px;
+  width: 98%;
+  border: 1px solid #2EB97F;
+  border-radius: 10px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.icon1{
+  float:right;
+  margin-top: -30px;
+}
+table .train, th, td {
+  border: 1px solid gainsboro;
+  color: #2EB97F;
+  border-radius: 0px;
+  line-height: 50px;
+  text-align: center;
+}
+.train th,td{
+  width: 40px;
+}
+ .train-pic{
+   width: 100%;
+ border: 1px solid #2EB97F;
+ border-radius: 15px;
+ margin-bottom: 30px;
+ transition: all .5s ease-in-out;
+}
+.train-pic:hover{
+ transform: scale(1.1);
+}
+ .num{
+  background-color: #2EB97F;
+  color: #fff;
+}
+.details{
+   text-decoration: none;
+   margin-left: 10px;
+
+}
+.details:hover{
+  text-transform: uppercase;
+  font-size: large;
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #000;
+}
+.emp-item{
+ 
+  text-align: center;
+  color: #2EB97F;
+
+}
+
+#exe{
+    
+    border-radius: 100%;
+}
+span.em{
+  text-align: center;
+  color: gray;
+  font-size:large;
+}
+.h-emp{
+  
+  color: gray;
+  font-size:large;
+}
+.emp-btn{
+  text-align: center;
+  color: #fff;
+  background-color:#2EB97F ;
+  border: 1px solid #2EB97F; 
+  width: 130px;
+  height: 50px;
+  margin-left: 20%;
+  margin-top: 40px;
+  border-radius: 25px;
+  box-shadow: 5px 10px #f7f8fa;
+}
+.emp-btn:hover{
+  background:  #ffffff 0% 0% no-repeat padding-box;
+  color:#2EB97F;
+}
